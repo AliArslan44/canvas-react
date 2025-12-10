@@ -34,4 +34,11 @@ change your images of placing and sizing
     }
 ```
 you can move your images with `w,a,s,d`
+you can change your buttons at
+```js
+if (e.key == 'w' && moreKeys) { image.y -= speed; swordObject.translateY -= speed }
+if (e.key == 'a' && moreKeys) { image.x -= speed; swordObject.translateX -= speed }
+if (e.key == 's' && moreKeys) { image.y += speed; swordObject.translateY += speed }
+if (e.key == 'd' && moreKeys) { image.x += speed; swordObject.translateX += speed }
+```
 
