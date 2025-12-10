@@ -33,4 +33,5 @@ change your images of placing and sizing
       height: 600
     }
 ```
+you can move your images with `w,a,s,d`
 
