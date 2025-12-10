@@ -42,4 +42,4 @@ if (e.key == 's' && moreKeys) { image.y += speed; swordObject.translateY += spee
 if (e.key == 'd' && moreKeys) { image.x += speed; swordObject.translateX += speed }
 ```
 <b>Screenshot<b/>
-<img src="./src/assets/screenshot.png"/>
+<img src="./src/screenshot.png"/>
